@@ -1,0 +1,27 @@
+#mv scripting variables
+
+#!bin/bash
+
+#variables
+
+a=1 
+echo "$a" 
+
+#double qoutes
+
+var1=hello_world
+echo "$var1"
+
+var2=12345
+echo "$var2"
+
+var3=welcome_to_?robe42
+echo "var3"
+
+echo 'hello there'
+echo "hello there"
+echo '$var2'
+
+echo `cal`
+echo `ls -lrt`
+echo `pwd`
